@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5ED"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="22dp"
+            android:background="#294C3B">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="✦  РІЗДВЯНІ ТРАДИЦІЇ  ✦"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:letterSpacing="0.12"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginTop="30dp"
+            android:text="Магія у кожній деталі"
+            android:textColor="#294C3B"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginTop="9dp"
+            android:text="Познайомся з давніми українськими звичаями, які роблять Різдво особливим."
+            android:textColor="#71695D"
+            android:textSize="15sp"
+            android:lineSpacingExtra="5dp"/>
+
+        <!-- Didukh -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="3dp">
+
+            <ImageView
+                android:id="@+id/imgDidukh"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Український дідух"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="17dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01  •  СИМВОЛ РОДИНИ"
+                    android:textColor="#AE8550"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Різдвяний дідух"
+                    android:textColor="#294C3B"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Святковий сніп із колосків пшениці або жита. Символізує достаток, добробут, урожай та пам'ять про предків."
+                    android:textColor="#71695D"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Christmas star -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="3dp">
+
+            <ImageView
+                android:id="@+id/imgStar"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Різдвяна зірка"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="17dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02  •  СВІТЛО РІЗДВА"
+                    android:textColor="#AE8550"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="Різдвяна зірка"
+                    android:textColor="#294C3B"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Восьмикутна зірка символізує Вифлеємську зорю. Її прикрашають стрічками та несуть під час колядування."
+                    android:textColor="#71695D"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Caroling -->
+
+        <ImageView
+            android:id="@+id/imgCarolers"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="18dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Українські колядники"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginTop="13dp"
+            android:text="Колядки та вертеп"
+            android:textColor="#294C3B"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginTop="7dp"
+            android:text="Колядники прославляють народження Христа, співають пісень та бажають кожній родині щастя і добробуту."
+            android:textColor="#71695D"
+            android:textSize="14sp"
+            android:lineSpacingExtra="5dp"/>
+
+        <!-- Interactive choice -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginTop="28dp"
+            android:background="#D9CEBA"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginTop="25dp"
+            android:text="Яка традиція тобі найближча?"
+            android:textColor="#294C3B"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <RadioGroup
+            android:id="@+id/traditionGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioDidukh"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="#EDE6D8"
+                android:paddingHorizontal="14dp"
+                android:buttonTint="#294C3B"
+                android:text="Різдвяний дідух"
+                android:textColor="#294C3B"
+                android:textSize="15sp"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioStar"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:background="#EDE6D8"
+                android:paddingHorizontal="14dp"
+                android:buttonTint="#294C3B"
+                android:text="Різдвяна зірка"
+                android:textColor="#294C3B"
+                android:textSize="15sp"/>
+
+            <RadioButton
+                android:id="@+id/radioCarol"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:background="#EDE6D8"
+                android:paddingHorizontal="14dp"
+                android:buttonTint="#294C3B"
+                android:text="Колядки та вертеп"
+                android:textColor="#294C3B"
+                android:textSize="15sp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnDiscover"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="#294C3B"
+            android:text="МОЯ УЛЮБЛЕНА ТРАДИЦІЯ"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="✦  ХРИСТОС НАРОДИВСЯ!  ✦"
+            android:textColor="#AE8550"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ЗБЕРІГАЄМО ТРАДИЦІЇ РАЗОМ"
+            android:textColor="#948879"
+            android:textSize="10sp"
+            android:letterSpacing="0.12"/>
+
+    </LinearLayout>
+
+</ScrollView>
